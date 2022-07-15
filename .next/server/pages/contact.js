@@ -1,63 +1,291 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/contact";
-exports.ids = ["pages/contact"];
+exports.id = 335;
+exports.ids = [335];
 exports.modules = {
 
-/***/ "./styles/ContactCode.module.css":
-/*!***************************************!*\
-  !*** ./styles/ContactCode.module.css ***!
-  \***************************************/
+/***/ 2973:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"code\": \"ContactCode_code__eZpTM\",\n\t\"line\": \"ContactCode_line__HEU_b\",\n\t\"className\": \"ContactCode_className__LCTTe\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvQ29udGFjdENvZGUubW9kdWxlLmNzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly92c2NvZGUtcG9ydGZvbGlvLy4vc3R5bGVzL0NvbnRhY3RDb2RlLm1vZHVsZS5jc3M/MGZjMyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJjb2RlXCI6IFwiQ29udGFjdENvZGVfY29kZV9fZVpwVE1cIixcblx0XCJsaW5lXCI6IFwiQ29udGFjdENvZGVfbGluZV9fSEVVX2JcIixcblx0XCJjbGFzc05hbWVcIjogXCJDb250YWN0Q29kZV9jbGFzc05hbWVfX0xDVFRlXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./styles/ContactCode.module.css\n");
+// Exports
+module.exports = {
+	"code": "ContactCode_code__eZpTM",
+	"line": "ContactCode_line__HEU_b",
+	"className": "ContactCode_className__LCTTe"
+};
+
 
 /***/ }),
 
-/***/ "./styles/ContactPage.module.css":
-/*!***************************************!*\
-  !*** ./styles/ContactPage.module.css ***!
-  \***************************************/
+/***/ 6602:
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\t\"container\": \"ContactPage_container__ApSoI\",\n\t\"flex\": \"ContactPage_flex__YPyzr\",\n\t\"form\": \"ContactPage_form__3P_5V\",\n\t\"heading\": \"ContactPage_heading__886zg\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zdHlsZXMvQ29udGFjdFBhZ2UubW9kdWxlLmNzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3ZzY29kZS1wb3J0Zm9saW8vLi9zdHlsZXMvQ29udGFjdFBhZ2UubW9kdWxlLmNzcz8zZjI1Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImNvbnRhaW5lclwiOiBcIkNvbnRhY3RQYWdlX2NvbnRhaW5lcl9fQXBTb0lcIixcblx0XCJmbGV4XCI6IFwiQ29udGFjdFBhZ2VfZmxleF9fWVB5enJcIixcblx0XCJmb3JtXCI6IFwiQ29udGFjdFBhZ2VfZm9ybV9fM1BfNVZcIixcblx0XCJoZWFkaW5nXCI6IFwiQ29udGFjdFBhZ2VfaGVhZGluZ19fODg2emdcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./styles/ContactPage.module.css\n");
+// Exports
+module.exports = {
+	"container": "ContactPage_container__ApSoI",
+	"flex": "ContactPage_flex__YPyzr",
+	"form": "ContactPage_form__3P_5V",
+	"heading": "ContactPage_heading__886zg"
+};
+
 
 /***/ }),
 
-/***/ "./components/ContactCode.jsx":
-/*!************************************!*\
-  !*** ./components/ContactCode.jsx ***!
-  \************************************/
+/***/ 1418:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/ContactCode.module.css */ \"./styles/ContactCode.module.css\");\n/* harmony import */ var _styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst contactItems = [\n    {\n        social: 'website',\n        link: 'mobinveisy.ir',\n        href: 'https://mobinveisy.ir'\n    },\n    {\n        social: 'email',\n        link: 'mobinveisy@yahoo.com',\n        href: 'mailto:mobinveisy@yahoo.com'\n    },\n    {\n        social: 'github',\n        link: 'mobinveisy',\n        href: 'https://github.com/mobinveisy'\n    },\n    {\n        social: 'linkedin',\n        link: 'mobinveisy',\n        href: 'https://www.linkedin.com/in/mobin-veisy/'\n    },\n    {\n        social: 'telegram',\n        link: 'mobinveisy',\n        href: 'https://t.me/mobinveisy'\n    }, \n];\nconst ContactCode = ()=>{\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: (_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default().code),\n        __source: {\n            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n            lineNumber: 34,\n            columnNumber: 5\n        },\n        __self: undefined,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"p\", {\n                className: (_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default().line),\n                __source: {\n                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                    lineNumber: 35,\n                    columnNumber: 7\n                },\n                __self: undefined,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"span\", {\n                        className: (_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default().className),\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                            lineNumber: 36,\n                            columnNumber: 9\n                        },\n                        __self: undefined,\n                        children: \".socials\"\n                    }),\n                    \" {\"\n                ]\n            }),\n            contactItems.slice(0, 8).map((item, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"p\", {\n                    className: (_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default().line),\n                    __source: {\n                        fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    },\n                    __self: undefined,\n                    children: [\n                        \"\\xa0\\xa0\\xa0\",\n                        item.social,\n                        \":\",\n                        ' ',\n                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"a\", {\n                            href: item.href,\n                            target: \"_blank\",\n                            rel: \"noopener\",\n                            __source: {\n                                fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                                lineNumber: 41,\n                                columnNumber: 11\n                            },\n                            __self: undefined,\n                            children: item.link\n                        }),\n                        \";\"\n                    ]\n                }, index)\n            ),\n            contactItems.slice(8, contactItems.length).map((item, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"p\", {\n                    className: (_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default().line),\n                    __source: {\n                        fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                        lineNumber: 48,\n                        columnNumber: 9\n                    },\n                    __self: undefined,\n                    children: [\n                        \"\\xa0\\xa0\",\n                        item.social,\n                        \":\",\n                        ' ',\n                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"a\", {\n                            href: item.href,\n                            target: \"_blank\",\n                            rel: \"noopener\",\n                            __source: {\n                                fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                                lineNumber: 50,\n                                columnNumber: 11\n                            },\n                            __self: undefined,\n                            children: item.link\n                        }),\n                        \";\"\n                    ]\n                }, index)\n            ),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"p\", {\n                className: (_styles_ContactCode_module_css__WEBPACK_IMPORTED_MODULE_1___default().line),\n                __source: {\n                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\components\\\\ContactCode.jsx\",\n                    lineNumber: 56,\n                    columnNumber: 7\n                },\n                __self: undefined,\n                children: \"}\"\n            })\n        ]\n    }));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactCode);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0NvbnRhY3RDb2RlLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBcUQ7QUFFckQsS0FBSyxDQUFDQyxZQUFZLEdBQUcsQ0FBQztJQUNwQixDQUFDO1FBQ0NDLE1BQU0sRUFBRSxDQUFTO1FBQ2pCQyxJQUFJLEVBQUUsQ0FBZTtRQUNyQkMsSUFBSSxFQUFFLENBQXVCO0lBQy9CLENBQUM7SUFDRCxDQUFDO1FBQ0NGLE1BQU0sRUFBRSxDQUFPO1FBQ2ZDLElBQUksRUFBRSxDQUFzQjtRQUM1QkMsSUFBSSxFQUFFLENBQTZCO0lBQ3JDLENBQUM7SUFDRCxDQUFDO1FBQ0NGLE1BQU0sRUFBRSxDQUFRO1FBQ2hCQyxJQUFJLEVBQUUsQ0FBWTtRQUNsQkMsSUFBSSxFQUFFLENBQStCO0lBQ3ZDLENBQUM7SUFDRCxDQUFDO1FBQ0NGLE1BQU0sRUFBRSxDQUFVO1FBQ2xCQyxJQUFJLEVBQUUsQ0FBWTtRQUNsQkMsSUFBSSxFQUFFLENBQTBDO0lBQ2xELENBQUM7SUFDRCxDQUFDO1FBQ0NGLE1BQU0sRUFBRSxDQUFVO1FBQ2xCQyxJQUFJLEVBQUUsQ0FBWTtRQUNsQkMsSUFBSSxFQUFFLENBQXlCO0lBQ2pDLENBQUM7QUFFSCxDQUFDO0FBRUQsS0FBSyxDQUFDQyxXQUFXLE9BQVMsQ0FBQztJQUN6QixNQUFNLHVFQUNIQyxDQUFHO1FBQUNDLFNBQVMsRUFBRVAsNEVBQVc7Ozs7Ozs7O2tGQUN4QlMsQ0FBQztnQkFBQ0YsU0FBUyxFQUFFUCw0RUFBVzs7Ozs7Ozs7eUZBQ3RCVyxDQUFJO3dCQUFDSixTQUFTLEVBQUVQLGlGQUFnQjs7Ozs7OztrQ0FBRSxDQUFROztvQkFBTyxDQUNwRDs7O1lBQ0NDLFlBQVksQ0FBQ1csS0FBSyxDQUFDLENBQUMsRUFBRSxDQUFDLEVBQUVDLEdBQUcsRUFBRUMsSUFBSSxFQUFFQyxLQUFLLHlFQUN2Q04sQ0FBQztvQkFBQ0YsU0FBUyxFQUFFUCw0RUFBVzs7Ozs7Ozs7d0JBQWMsQ0FDbkI7d0JBQUNjLElBQUksQ0FBQ1osTUFBTTt3QkFBQyxDQUFDO3dCQUFDLENBQUc7NkZBQ25DYyxDQUFDOzRCQUFDWixJQUFJLEVBQUVVLElBQUksQ0FBQ1YsSUFBSTs0QkFBRWEsTUFBTSxFQUFDLENBQVE7NEJBQUNDLEdBQUcsRUFBQyxDQUFVOzs7Ozs7O3NDQUMvQ0osSUFBSSxDQUFDWCxJQUFJOzt3QkFDUixDQUVOOzttQkFOZ0NZLEtBQUs7O1lBUXRDZCxZQUFZLENBQUNXLEtBQUssQ0FBQyxDQUFDLEVBQUVYLFlBQVksQ0FBQ2tCLE1BQU0sRUFBRU4sR0FBRyxFQUFFQyxJQUFJLEVBQUVDLEtBQUsseUVBQ3pETixDQUFDO29CQUFDRixTQUFTLEVBQUVQLDRFQUFXOzs7Ozs7Ozt3QkFBYyxDQUN6Qjt3QkFBQ2MsSUFBSSxDQUFDWixNQUFNO3dCQUFDLENBQUM7d0JBQUMsQ0FBRzs2RkFDN0JjLENBQUM7NEJBQUNaLElBQUksRUFBRVUsSUFBSSxDQUFDVixJQUFJOzRCQUFFYSxNQUFNLEVBQUMsQ0FBUTs0QkFBQ0MsR0FBRyxFQUFDLENBQVU7Ozs7Ozs7c0NBQy9DSixJQUFJLENBQUNYLElBQUk7O3dCQUNSLENBRU47O21CQU5nQ1ksS0FBSzs7aUZBUXRDTixDQUFDO2dCQUFDRixTQUFTLEVBQUVQLDRFQUFXOzs7Ozs7OzBCQUFFLENBQU07Ozs7QUFHdkMsQ0FBQztBQUVELGlFQUFlSyxXQUFXLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly92c2NvZGUtcG9ydGZvbGlvLy4vY29tcG9uZW50cy9Db250YWN0Q29kZS5qc3g/Mjg4MyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVzIGZyb20gJy4uL3N0eWxlcy9Db250YWN0Q29kZS5tb2R1bGUuY3NzJztcclxuXHJcbmNvbnN0IGNvbnRhY3RJdGVtcyA9IFtcclxuICB7XHJcbiAgICBzb2NpYWw6ICd3ZWJzaXRlJyxcclxuICAgIGxpbms6ICdtb2JpbnZlaXN5LmlyJyxcclxuICAgIGhyZWY6ICdodHRwczovL21vYmludmVpc3kuaXInLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgc29jaWFsOiAnZW1haWwnLFxyXG4gICAgbGluazogJ21vYmludmVpc3lAeWFob28uY29tJyxcclxuICAgIGhyZWY6ICdtYWlsdG86bW9iaW52ZWlzeUB5YWhvby5jb20nLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgc29jaWFsOiAnZ2l0aHViJyxcclxuICAgIGxpbms6ICdtb2JpbnZlaXN5JyxcclxuICAgIGhyZWY6ICdodHRwczovL2dpdGh1Yi5jb20vbW9iaW52ZWlzeScsXHJcbiAgfSxcclxuICB7XHJcbiAgICBzb2NpYWw6ICdsaW5rZWRpbicsXHJcbiAgICBsaW5rOiAnbW9iaW52ZWlzeScsXHJcbiAgICBocmVmOiAnaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL21vYmluLXZlaXN5LycsXHJcbiAgfSxcclxuICB7XHJcbiAgICBzb2NpYWw6ICd0ZWxlZ3JhbScsXHJcbiAgICBsaW5rOiAnbW9iaW52ZWlzeScsXHJcbiAgICBocmVmOiAnaHR0cHM6Ly90Lm1lL21vYmludmVpc3knLFxyXG4gIH0sXHJcblxyXG5dO1xyXG5cclxuY29uc3QgQ29udGFjdENvZGUgPSAoKSA9PiB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuY29kZX0+XHJcbiAgICAgIDxwIGNsYXNzTmFtZT17c3R5bGVzLmxpbmV9PlxyXG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT17c3R5bGVzLmNsYXNzTmFtZX0+LnNvY2lhbHM8L3NwYW4+ICYjMTIzO1xyXG4gICAgICA8L3A+XHJcbiAgICAgIHtjb250YWN0SXRlbXMuc2xpY2UoMCwgOCkubWFwKChpdGVtLCBpbmRleCkgPT4gKFxyXG4gICAgICAgIDxwIGNsYXNzTmFtZT17c3R5bGVzLmxpbmV9IGtleT17aW5kZXh9PlxyXG4gICAgICAgICAgJm5ic3A7Jm5ic3A7Jm5ic3A7e2l0ZW0uc29jaWFsfTp7JyAnfVxyXG4gICAgICAgICAgPGEgaHJlZj17aXRlbS5ocmVmfSB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lclwiPlxyXG4gICAgICAgICAgICB7aXRlbS5saW5rfVxyXG4gICAgICAgICAgPC9hPlxyXG4gICAgICAgICAgO1xyXG4gICAgICAgIDwvcD5cclxuICAgICAgKSl9XHJcbiAgICAgIHtjb250YWN0SXRlbXMuc2xpY2UoOCwgY29udGFjdEl0ZW1zLmxlbmd0aCkubWFwKChpdGVtLCBpbmRleCkgPT4gKFxyXG4gICAgICAgIDxwIGNsYXNzTmFtZT17c3R5bGVzLmxpbmV9IGtleT17aW5kZXh9PlxyXG4gICAgICAgICAgJm5ic3A7Jm5ic3A7e2l0ZW0uc29jaWFsfTp7JyAnfVxyXG4gICAgICAgICAgPGEgaHJlZj17aXRlbS5ocmVmfSB0YXJnZXQ9XCJfYmxhbmtcIiByZWw9XCJub29wZW5lclwiPlxyXG4gICAgICAgICAgICB7aXRlbS5saW5rfVxyXG4gICAgICAgICAgPC9hPlxyXG4gICAgICAgICAgO1xyXG4gICAgICAgIDwvcD5cclxuICAgICAgKSl9XHJcbiAgICAgIDxwIGNsYXNzTmFtZT17c3R5bGVzLmxpbmV9PiYjMTI1OzwvcD5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBDb250YWN0Q29kZTtcclxuIl0sIm5hbWVzIjpbInN0eWxlcyIsImNvbnRhY3RJdGVtcyIsInNvY2lhbCIsImxpbmsiLCJocmVmIiwiQ29udGFjdENvZGUiLCJkaXYiLCJjbGFzc05hbWUiLCJjb2RlIiwicCIsImxpbmUiLCJzcGFuIiwic2xpY2UiLCJtYXAiLCJpdGVtIiwiaW5kZXgiLCJhIiwidGFyZ2V0IiwicmVsIiwibGVuZ3RoIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/ContactCode.jsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ contact),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+// EXTERNAL MODULE: ./styles/ContactCode.module.css
+var ContactCode_module = __webpack_require__(2973);
+var ContactCode_module_default = /*#__PURE__*/__webpack_require__.n(ContactCode_module);
+;// CONCATENATED MODULE: ./components/ContactCode.jsx
+
+
+const contactItems = [
+    {
+        social: "website",
+        link: "mobinveisy.ir",
+        href: "https://mobinveisy.ir"
+    },
+    {
+        social: "email",
+        link: "mobinveisy@yahoo.com",
+        href: "mailto:mobinveisy@yahoo.com"
+    },
+    {
+        social: "github",
+        link: "mobinveisy",
+        href: "https://github.com/mobinveisy"
+    },
+    {
+        social: "linkedin",
+        link: "mobinveisy",
+        href: "https://www.linkedin.com/in/mobin-veisy/"
+    },
+    {
+        social: "telegram",
+        link: "mobinveisy",
+        href: "https://t.me/mobinveisy"
+    }, 
+];
+const ContactCode = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (ContactCode_module_default()).code,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                className: (ContactCode_module_default()).line,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        className: (ContactCode_module_default()).className,
+                        children: ".socials"
+                    }),
+                    " {"
+                ]
+            }),
+            contactItems.slice(0, 8).map((item, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                    className: (ContactCode_module_default()).line,
+                    children: [
+                        "\xa0\xa0\xa0",
+                        item.social,
+                        ":",
+                        " ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: item.href,
+                            target: "_blank",
+                            rel: "noopener",
+                            children: item.link
+                        }),
+                        ";"
+                    ]
+                }, index)),
+            contactItems.slice(8, contactItems.length).map((item, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                    className: (ContactCode_module_default()).line,
+                    children: [
+                        "\xa0\xa0",
+                        item.social,
+                        ":",
+                        " ",
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: item.href,
+                            target: "_blank",
+                            rel: "noopener",
+                            children: item.link
+                        }),
+                        ";"
+                    ]
+                }, index)),
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: (ContactCode_module_default()).line,
+                children: "}"
+            })
+        ]
+    });
+};
+/* harmony default export */ const components_ContactCode = (ContactCode);
+
+// EXTERNAL MODULE: ./styles/ContactPage.module.css
+var ContactPage_module = __webpack_require__(6602);
+var ContactPage_module_default = /*#__PURE__*/__webpack_require__.n(ContactPage_module);
+;// CONCATENATED MODULE: ./pages/contact.jsx
+
+
+
+
+const ContactPage = ()=>{
+    const { 0: name , 1: setName  } = (0,external_react_.useState)("");
+    const { 0: email , 1: setEmail  } = (0,external_react_.useState)("");
+    const { 0: subject , 1: setSubject  } = (0,external_react_.useState)("");
+    const { 0: message , 1: setMessage  } = (0,external_react_.useState)("");
+    const submitForm = async (e)=>{
+        e.preventDefault();
+        console.log("https://www.mobinveisy.ir/api");
+        const res = await fetch(`${"https://www.mobinveisy.ir/api"}/contact`, {
+            method: "POST",
+            body: JSON.stringify({
+                name,
+                email,
+                subject,
+                message
+            })
+        });
+        if (res.ok) {
+            alert("Your response has been received!");
+            setName("");
+            setEmail("");
+            setSubject("");
+            setMessage("");
+        } else {
+            alert("There was an error. Please try again in a while.");
+        }
+    };
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (ContactPage_module_default()).container,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                        className: (ContactPage_module_default()).heading,
+                        children: "Reach Out Via Socials"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(components_ContactCode, {})
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                        className: (ContactPage_module_default()).heading,
+                        children: "Or Fill Out This Form"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
+                        className: (ContactPage_module_default()).form,
+                        onSubmit: submitForm,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (ContactPage_module_default()).flex,
+                                children: [
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                                htmlFor: "name",
+                                                children: "Name"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                type: "text",
+                                                name: "name",
+                                                id: "name",
+                                                value: name,
+                                                onChange: (e)=>setName(e.target.value),
+                                                required: true
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                                htmlFor: "email",
+                                                children: "Email"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                type: "email",
+                                                name: "email",
+                                                id: "email",
+                                                value: email,
+                                                onChange: (e)=>setEmail(e.target.value),
+                                                required: true
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                        htmlFor: "name",
+                                        children: "Subject"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                        type: "text",
+                                        name: "subject",
+                                        id: "subject",
+                                        value: subject,
+                                        onChange: (e)=>setSubject(e.target.value),
+                                        required: true
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                        htmlFor: "message",
+                                        children: "Message"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("textarea", {
+                                        name: "message",
+                                        id: "message",
+                                        rows: "5",
+                                        value: message,
+                                        onChange: (e)=>setMessage(e.target.value),
+                                        required: true
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "submit",
+                                children: "Submit"
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+};
+async function getStaticProps() {
+    return {
+        props: {
+            title: "Contact"
+        }
+    };
+}
+/* harmony default export */ const contact = (ContactPage);
+
 
 /***/ }),
 
-/***/ "./pages/contact.jsx":
-/*!***************************!*\
-  !*** ./pages/contact.jsx ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_ContactCode__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ContactCode */ \"./components/ContactCode.jsx\");\n/* harmony import */ var _styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/ContactPage.module.css */ \"./styles/ContactPage.module.css\");\n/* harmony import */ var _styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nconst ContactPage = ()=>{\n    const { 0: name , 1: setName  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)('');\n    const { 0: email , 1: setEmail  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)('');\n    const { 0: subject , 1: setSubject  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)('');\n    const { 0: message , 1: setMessage  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)('');\n    const submitForm = async (e)=>{\n        e.preventDefault();\n        console.log(\"http://localhost:3000/api\");\n        const res = await fetch(`${\"http://localhost:3000/api\"}/contact`, {\n            method: 'POST',\n            body: JSON.stringify({\n                name,\n                email,\n                subject,\n                message\n            })\n        });\n        if (res.ok) {\n            alert('Your response has been received!');\n            setName('');\n            setEmail('');\n            setSubject('');\n            setMessage('');\n        } else {\n            alert('There was an error. Please try again in a while.');\n        }\n    };\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n        className: (_styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3___default().container),\n        __source: {\n            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n            lineNumber: 30,\n            columnNumber: 5\n        },\n        __self: undefined,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                __source: {\n                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                    lineNumber: 31,\n                    columnNumber: 7\n                },\n                __self: undefined,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h3\", {\n                        className: (_styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading),\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                            lineNumber: 32,\n                            columnNumber: 9\n                        },\n                        __self: undefined,\n                        children: \"Reach Out Via Socials\"\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_ContactCode__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                            lineNumber: 33,\n                            columnNumber: 9\n                        },\n                        __self: undefined\n                    })\n                ]\n            }),\n            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                __source: {\n                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                    lineNumber: 35,\n                    columnNumber: 7\n                },\n                __self: undefined,\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"h3\", {\n                        className: (_styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3___default().heading),\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                            lineNumber: 36,\n                            columnNumber: 9\n                        },\n                        __self: undefined,\n                        children: \"Or Fill Out This Form\"\n                    }),\n                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"form\", {\n                        className: (_styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3___default().form),\n                        onSubmit: submitForm,\n                        __source: {\n                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                            lineNumber: 37,\n                            columnNumber: 9\n                        },\n                        __self: undefined,\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                                className: (_styles_ContactPage_module_css__WEBPACK_IMPORTED_MODULE_3___default().flex),\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                    lineNumber: 38,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                                        __source: {\n                                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                            lineNumber: 39,\n                                            columnNumber: 13\n                                        },\n                                        __self: undefined,\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"label\", {\n                                                htmlFor: \"name\",\n                                                __source: {\n                                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                                    lineNumber: 40,\n                                                    columnNumber: 15\n                                                },\n                                                __self: undefined,\n                                                children: \"Name\"\n                                            }),\n                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"input\", {\n                                                type: \"text\",\n                                                name: \"name\",\n                                                id: \"name\",\n                                                value: name,\n                                                onChange: (e)=>setName(e.target.value)\n                                                ,\n                                                required: true,\n                                                __source: {\n                                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                                    lineNumber: 41,\n                                                    columnNumber: 15\n                                                },\n                                                __self: undefined\n                                            })\n                                        ]\n                                    }),\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                                        __source: {\n                                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                            lineNumber: 50,\n                                            columnNumber: 13\n                                        },\n                                        __self: undefined,\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"label\", {\n                                                htmlFor: \"email\",\n                                                __source: {\n                                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                                    lineNumber: 51,\n                                                    columnNumber: 15\n                                                },\n                                                __self: undefined,\n                                                children: \"Email\"\n                                            }),\n                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"input\", {\n                                                type: \"email\",\n                                                name: \"email\",\n                                                id: \"email\",\n                                                value: email,\n                                                onChange: (e)=>setEmail(e.target.value)\n                                                ,\n                                                required: true,\n                                                __source: {\n                                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                                    lineNumber: 52,\n                                                    columnNumber: 15\n                                                },\n                                                __self: undefined\n                                            })\n                                        ]\n                                    })\n                                ]\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                    lineNumber: 62,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"label\", {\n                                        htmlFor: \"name\",\n                                        __source: {\n                                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                            lineNumber: 63,\n                                            columnNumber: 13\n                                        },\n                                        __self: undefined,\n                                        children: \"Subject\"\n                                    }),\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"input\", {\n                                        type: \"text\",\n                                        name: \"subject\",\n                                        id: \"subject\",\n                                        value: subject,\n                                        onChange: (e)=>setSubject(e.target.value)\n                                        ,\n                                        required: true,\n                                        __source: {\n                                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                            lineNumber: 64,\n                                            columnNumber: 13\n                                        },\n                                        __self: undefined\n                                    })\n                                ]\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(\"div\", {\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                    lineNumber: 73,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"label\", {\n                                        htmlFor: \"message\",\n                                        __source: {\n                                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                            lineNumber: 74,\n                                            columnNumber: 13\n                                        },\n                                        __self: undefined,\n                                        children: \"Message\"\n                                    }),\n                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"textarea\", {\n                                        name: \"message\",\n                                        id: \"message\",\n                                        rows: \"5\",\n                                        value: message,\n                                        onChange: (e)=>setMessage(e.target.value)\n                                        ,\n                                        required: true,\n                                        __source: {\n                                            fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                            lineNumber: 75,\n                                            columnNumber: 13\n                                        },\n                                        __self: undefined\n                                    })\n                                ]\n                            }),\n                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(\"button\", {\n                                type: \"submit\",\n                                __source: {\n                                    fileName: \"C:\\\\Users\\\\Mobin\\\\Desktop\\\\my-portfolio\\\\pages\\\\contact.jsx\",\n                                    lineNumber: 84,\n                                    columnNumber: 11\n                                },\n                                __self: undefined,\n                                children: \"Submit\"\n                            })\n                        ]\n                    })\n                ]\n            })\n        ]\n    }));\n};\nasync function getStaticProps() {\n    return {\n        props: {\n            title: 'Contact'\n        }\n    };\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactPage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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RUFBQyxDQUFNOzs7Ozs7O2tEQUFDLENBQU87O3lHQUM1QkMsQ0FBSzt3Q0FDSkMsSUFBSSxFQUFDLENBQU07d0NBQ1huQyxJQUFJLEVBQUMsQ0FBUzt3Q0FDZG9DLEVBQUUsRUFBQyxDQUFTO3dDQUNaQyxLQUFLLEVBQUVqQyxPQUFPO3dDQUNka0MsUUFBUSxHQUFHN0IsQ0FBQyxHQUFLSixVQUFVLENBQUNJLENBQUMsQ0FBQzhCLE1BQU0sQ0FBQ0YsS0FBSzs7d0NBQzFDRyxRQUFROzs7Ozs7Ozs7O2tHQUdYaEIsQ0FBRzs7Ozs7Ozs7eUdBQ0RRLENBQUs7d0NBQUNDLE9BQU8sRUFBQyxDQUFTOzs7Ozs7O2tEQUFDLENBQU87O3lHQUMvQlEsQ0FBUTt3Q0FDUHpDLElBQUksRUFBQyxDQUFTO3dDQUNkb0MsRUFBRSxFQUFDLENBQVM7d0NBQ1pNLElBQUksRUFBQyxDQUFHO3dDQUNSTCxLQUFLLEVBQUUvQixPQUFPO3dDQUNkZ0MsUUFBUSxHQUFHN0IsQ0FBQyxHQUFLRixVQUFVLENBQUNFLENBQUMsQ0FBQzhCLE1BQU0sQ0FBQ0YsS0FBSzs7d0NBQzFDRyxRQUFROzs7Ozs7Ozs7O2lHQUdYRyxDQUFNO2dDQUFDUixJQUFJLEVBQUMsQ0FBUTs7Ozs7OzswQ0FBQyxDQUFNOzs7Ozs7OztBQUt0QyxDQUFDO0FBRU0sZUFBZVMsY0FBYyxHQUFHLENBQUM7SUFDdEMsTUFBTSxDQUFDLENBQUM7UUFDTkMsS0FBSyxFQUFFLENBQUM7WUFBQ0MsS0FBSyxFQUFFLENBQVM7UUFBQyxDQUFDO0lBQzdCLENBQUM7QUFDSCxDQUFDO0FBRUQsaUVBQWUvQyxXQUFXLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly92c2NvZGUtcG9ydGZvbGlvLy4vcGFnZXMvY29udGFjdC5qc3g/Mjg3ZiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IENvbnRhY3RDb2RlIGZyb20gJy4uL2NvbXBvbmVudHMvQ29udGFjdENvZGUnO1xyXG5pbXBvcnQgc3R5bGVzIGZyb20gJy4uL3N0eWxlcy9Db250YWN0UGFnZS5tb2R1bGUuY3NzJztcclxuXHJcbmNvbnN0IENvbnRhY3RQYWdlID0gKCkgPT4ge1xyXG4gIGNvbnN0IFtuYW1lLCBzZXROYW1lXSA9IHVzZVN0YXRlKCcnKTtcclxuICBjb25zdCBbZW1haWwsIHNldEVtYWlsXSA9IHVzZVN0YXRlKCcnKTtcclxuICBjb25zdCBbc3ViamVjdCwgc2V0U3ViamVjdF0gPSB1c2VTdGF0ZSgnJyk7XHJcbiAgY29uc3QgW21lc3NhZ2UsIHNldE1lc3NhZ2VdID0gdXNlU3RhdGUoJycpO1xyXG5cclxuICBjb25zdCBzdWJtaXRGb3JtID0gYXN5bmMgKGUpID0+IHtcclxuICAgIGUucHJldmVudERlZmF1bHQoKTtcclxuICAgIGNvbnNvbGUubG9nKHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX0FQSV9VUkwpO1xyXG4gICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goYCR7cHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfQVBJX1VSTH0vY29udGFjdGAsIHtcclxuICAgICAgbWV0aG9kOiAnUE9TVCcsXHJcbiAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgbmFtZSwgZW1haWwsIHN1YmplY3QsIG1lc3NhZ2UgfSksXHJcbiAgICB9KTtcclxuICAgIGlmIChyZXMub2spIHtcclxuICAgICAgYWxlcnQoJ1lvdXIgcmVzcG9uc2UgaGFzIGJlZW4gcmVjZWl2ZWQhJyk7XHJcbiAgICAgIHNldE5hbWUoJycpO1xyXG4gICAgICBzZXRFbWFpbCgnJyk7XHJcbiAgICAgIHNldFN1YmplY3QoJycpO1xyXG4gICAgICBzZXRNZXNzYWdlKCcnKTtcclxuICAgIH0gZWxzZSB7XHJcbiAgICAgIGFsZXJ0KCdUaGVyZSB3YXMgYW4gZXJyb3IuIFBsZWFzZSB0cnkgYWdhaW4gaW4gYSB3aGlsZS4nKTtcclxuICAgIH1cclxuICB9O1xyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jb250YWluZXJ9PlxyXG4gICAgICA8ZGl2PlxyXG4gICAgICAgIDxoMyBjbGFzc05hbWU9e3N0eWxlcy5oZWFkaW5nfT5SZWFjaCBPdXQgVmlhIFNvY2lhbHM8L2gzPlxyXG4gICAgICAgIDxDb250YWN0Q29kZSAvPlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgPGRpdj5cclxuICAgICAgICA8aDMgY2xhc3NOYW1lPXtzdHlsZXMuaGVhZGluZ30+T3IgRmlsbCBPdXQgVGhpcyBGb3JtPC9oMz5cclxuICAgICAgICA8Zm9ybSBjbGFzc05hbWU9e3N0eWxlcy5mb3JtfSBvblN1Ym1pdD17c3VibWl0Rm9ybX0+XHJcbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmZsZXh9PlxyXG4gICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPVwibmFtZVwiPk5hbWU8L2xhYmVsPlxyXG4gICAgICAgICAgICAgIDxpbnB1dFxyXG4gICAgICAgICAgICAgICAgdHlwZT1cInRleHRcIlxyXG4gICAgICAgICAgICAgICAgbmFtZT1cIm5hbWVcIlxyXG4gICAgICAgICAgICAgICAgaWQ9XCJuYW1lXCJcclxuICAgICAgICAgICAgICAgIHZhbHVlPXtuYW1lfVxyXG4gICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXROYW1lKGUudGFyZ2V0LnZhbHVlKX1cclxuICAgICAgICAgICAgICAgIHJlcXVpcmVkXHJcbiAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJlbWFpbFwiPkVtYWlsPC9sYWJlbD5cclxuICAgICAgICAgICAgICA8aW5wdXRcclxuICAgICAgICAgICAgICAgIHR5cGU9XCJlbWFpbFwiXHJcbiAgICAgICAgICAgICAgICBuYW1lPVwiZW1haWxcIlxyXG4gICAgICAgICAgICAgICAgaWQ9XCJlbWFpbFwiXHJcbiAgICAgICAgICAgICAgICB2YWx1ZT17ZW1haWx9XHJcbiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEVtYWlsKGUudGFyZ2V0LnZhbHVlKX1cclxuICAgICAgICAgICAgICAgIHJlcXVpcmVkXHJcbiAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPVwibmFtZVwiPlN1YmplY3Q8L2xhYmVsPlxyXG4gICAgICAgICAgICA8aW5wdXRcclxuICAgICAgICAgICAgICB0eXBlPVwidGV4dFwiXHJcbiAgICAgICAgICAgICAgbmFtZT1cInN1YmplY3RcIlxyXG4gICAgICAgICAgICAgIGlkPVwic3ViamVjdFwiXHJcbiAgICAgICAgICAgICAgdmFsdWU9e3N1YmplY3R9XHJcbiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRTdWJqZWN0KGUudGFyZ2V0LnZhbHVlKX1cclxuICAgICAgICAgICAgICByZXF1aXJlZFxyXG4gICAgICAgICAgICAvPlxyXG4gICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj1cIm1lc3NhZ2VcIj5NZXNzYWdlPC9sYWJlbD5cclxuICAgICAgICAgICAgPHRleHRhcmVhXHJcbiAgICAgICAgICAgICAgbmFtZT1cIm1lc3NhZ2VcIlxyXG4gICAgICAgICAgICAgIGlkPVwibWVzc2FnZVwiXHJcbiAgICAgICAgICAgICAgcm93cz1cIjVcIlxyXG4gICAgICAgICAgICAgIHZhbHVlPXttZXNzYWdlfVxyXG4gICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0TWVzc2FnZShlLnRhcmdldC52YWx1ZSl9XHJcbiAgICAgICAgICAgICAgcmVxdWlyZWRcclxuICAgICAgICAgICAgPjwvdGV4dGFyZWE+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDxidXR0b24gdHlwZT1cInN1Ym1pdFwiPlN1Ym1pdDwvYnV0dG9uPlxyXG4gICAgICAgIDwvZm9ybT5cclxuICAgICAgPC9kaXY+XHJcbiAgICA8L2Rpdj5cclxuICApO1xyXG59O1xyXG5cclxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFN0YXRpY1Byb3BzKCkge1xyXG4gIHJldHVybiB7XHJcbiAgICBwcm9wczogeyB0aXRsZTogJ0NvbnRhY3QnIH0sXHJcbiAgfTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgQ29udGFjdFBhZ2U7XHJcbiJdLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsIkNvbnRhY3RDb2RlIiwic3R5bGVzIiwiQ29udGFjdFBhZ2UiLCJuYW1lIiwic2V0TmFtZSIsImVtYWlsIiwic2V0RW1haWwiLCJzdWJqZWN0Iiwic2V0U3ViamVjdCIsIm1lc3NhZ2UiLCJzZXRNZXNzYWdlIiwic3VibWl0Rm9ybSIsImUiLCJwcmV2ZW50RGVmYXVsdCIsImNvbnNvbGUiLCJsb2ciLCJwcm9jZXNzIiwiZW52IiwiTkVYVF9QVUJMSUNfQVBJX1VSTCIsInJlcyIsImZldGNoIiwibWV0aG9kIiwiYm9keSIsIkpTT04iLCJzdHJpbmdpZnkiLCJvayIsImFsZXJ0IiwiZGl2IiwiY2xhc3NOYW1lIiwiY29udGFpbmVyIiwiaDMiLCJoZWFkaW5nIiwiZm9ybSIsIm9uU3VibWl0IiwiZmxleCIsImxhYmVsIiwiaHRtbEZvciIsImlucHV0IiwidHlwZSIsImlkIiwidmFsdWUiLCJvbkNoYW5nZSIsInRhcmdldCIsInJlcXVpcmVkIiwidGV4dGFyZWEiLCJyb3dzIiwiYnV0dG9uIiwiZ2V0U3RhdGljUHJvcHMiLCJwcm9wcyIsInRpdGxlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/contact.jsx\n");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -65,10 +293,7 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-runtime":
-/*!************************************!*\
-  !*** external "react/jsx-runtime" ***!
-  \************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
@@ -83,7 +308,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/contact.jsx"));
+var __webpack_exports__ = (__webpack_exec__(1418));
 module.exports = __webpack_exports__;
 
 })();
